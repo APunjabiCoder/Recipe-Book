@@ -1,0 +1,35 @@
+
+.App{
+  text-align: center;
+  padding: 20px;
+}
+form{
+  margin-bottom: 20px;
+}
+
+
+input, textarea{
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border: 10px solid black;
+}
+button{
+  padding: 10px 20px;
+  border: 10px solid black;
+}
+
+.recipe-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipe{
+  border: 10px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
